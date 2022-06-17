@@ -187,7 +187,7 @@ class FlutterCallkitIncomingPlugin : FlutterPlugin, MethodCallHandler, ActivityA
                     result.success("OK")
                 }
                 "activeCalls" -> {
-                    result.success(getDataActiveCalls(context))
+                    result.success(getDataActiveCallsFixed(context))
                 }
                 "getDevicePushTokenVoIP" -> {
                     result.success("")
